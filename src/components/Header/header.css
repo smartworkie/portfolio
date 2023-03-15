@@ -1,0 +1,10 @@
+.header-wrapper{
+
+}
+
+
+@media screen and (min-width:790px){
+    .header-wrapper{
+        display:none;
+    }
+}

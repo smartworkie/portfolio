@@ -1,0 +1,50 @@
+.wrapper{
+    display:flex;
+}
+
+.left{   
+    display: flex;
+    flex:1;
+    gap:1rem;
+}
+
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:var(--orange);
+}
+.heart {
+    height:20%;
+}
+
+.right{
+display: flex;
+flex:1;
+font-weight: 400;
+}
+.list{
+display:flex;
+flex:1;  
+}
+.list>ul{
+display:flex;
+gap: 25%;
+margin-right:30%;
+}
+.list li{
+cursor:pointer;
+}
+.list li:hover {
+    color:var(--orange);
+}
+.button{
+    width:20%;
+    height:25%;
+    cursor:pointer;
+}
+@media screen and (max-width:790px){
+    .right{
+        display:none;
+    }
+}
