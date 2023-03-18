@@ -1,10 +1,21 @@
 .header-wrapper{
-
+position:fixed;
+top:17px;
+left:20px;
+}
+.header-wrappers{
+    background-color:var(--orange);
+    width:150px;
+    height:120px;
+    position:fixed;
+    top:39px;
+    left:0px;
 }
 
 
-@media screen and (min-width:790px){
+@media screen and (min-width:770px){
     .header-wrapper{
         display:none;
     }
+  
 }

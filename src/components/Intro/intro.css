@@ -94,6 +94,7 @@ margin-bottom:50px;
 @media screen and (max-width:769px) {
 .intro{
     display:flex;
+    margin-top:0;
     flex-direction:column;
     text-align:center;
 }
@@ -174,19 +175,19 @@ margin-bottom:50px;
 }
 @media screen and (max-width:380px){
 .images img{
-        width:3%;
-        height:5%;
+        width:30px;
+        height:30px;
     }
 .laptop{
     width:250px;
 }
 .node{
     top:585px;
-    left:183px;
+    left:170px;
 }
 .css{
     top:650px;
-    left:120px;
+    left:115px;
 }
 .mongoDB{
     top:650px;
@@ -201,7 +202,7 @@ margin-bottom:50px;
 }
 @media screen and (max-width:350px) {
     .laptop{
-        width:200px;
+ width:200px;
     }
    .node{
     top:585px;
@@ -220,6 +221,22 @@ margin-bottom:50px;
     left:230px;
    }
     
+}
+@media screen and (max-width:352px) {
+    .node{
+        top:523px;
+        left:171px;
+    }
+  .css{
+    top:590px;
+  }  
+  .mongoDB{
+    left:230px;
+    top:590px;
+  }
+  .react{
+    left:230px;
+  }
 }
 }
 

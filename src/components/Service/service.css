@@ -53,12 +53,30 @@ background: var(--blue);
     font-size:16px;
   }
 }
-@media screen and (max-width:350px){
-.frontback{
-  margin-right:4px;
+@media screen and (max-width:360px){
+.service{
+margin:0 auto;
+}
+.fullstack{
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+.development h1{
+  width:fit-content;
+  margin:0 auto;
+  margin-bottom: 20px;
+  text-align:center;
 }
 .frontend{
-  margin-right:3px;
+  margin-left: 99%;
+}
+
+.frontback{
+  text-align: center;
+  gap:7%;
+}
+.backend{
+  margin-right:6px;
 }
 }
 }

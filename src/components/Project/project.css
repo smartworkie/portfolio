@@ -33,6 +33,7 @@
    color:grey;
 }
 .see{
+    margin:0 auto;
     color:grey;
     border:1px solid grey;
     border-radius:30%;
@@ -45,6 +46,9 @@
     cursor:pointer;
 
 }
+#see{
+    margin-bottom:10px;
+}
 @media screen and (max-width:881px){
     .wrap{
         text-align:center;
@@ -54,6 +58,7 @@
 @media screen and (max-width:500px){
     .image{
         flex-direction:column;
+        margin-top:30px;
     }
     .smart, .movie{
         height:150px;

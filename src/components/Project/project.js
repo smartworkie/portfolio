@@ -41,7 +41,7 @@ const Project = () => {
           <div className='string'> 
           <p className='small'>{Small('Web app for creation of word documents, pdf documents, excel documents and file conversion. It supports creation of user accounts (Google Sign Up and Login)')}...</p>
          {learn &&  <p className='learn' onClick={handleLearn}>Learn More</p>}</div>
-       {!learn &&<p onClick ={handleLearn} className='see'>See Less</p>}
+       {!learn &&<p onClick ={handleLearn} className='see' id = 'see'>See Less</p>}
            </div>
            <div>
             <a href='https://movcol.netlify.app' target="_blank" rel="noreferrer"> <img src={Movie} alt='movie' className='movie'/></a>

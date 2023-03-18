@@ -43,8 +43,13 @@ cursor:pointer;
     height:25%;
     cursor:pointer;
 }
-@media screen and (max-width:790px){
+@media screen and (max-width:769px){
+    .wrapper{
+        display: column;
+        margin-bottom:-100px;
+    }
     .right{
         display:none;
     }
+
 }

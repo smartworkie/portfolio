@@ -9,12 +9,12 @@ const Header = () => {
             setShow(!show);
         }
     return (
-        <div>
+        <div className='header-wrapper'>
         <button  id ='bar' onClick={handleShow} >
   {!show? <FaBars  className = 'bars'/>:<AiOutlineClose  className = 'bars'/>}
         
  </button>
-   {!show &&  (     <div  className='header-wrapper'>
+   {show &&  (     <div  className='header-wrappers'>
             <ul style={{listStyleType:'none'}}>
                 <li>Home</li>
                 <li>Services</li>
