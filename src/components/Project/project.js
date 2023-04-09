@@ -34,7 +34,7 @@ const Project = () => {
         
     return(
         <div>
-        <div className='wrap'>
+        <div className='wrap' id = 'project'>
             <h1>Projects</h1>
            <div className='image'><div className='smartDiv'><a href = 'https://verifiedsmart.netlify.app'
             rel="noreferrer" target="_blank"> <img src={Smart} alt='smart' className='smart'/></a>

@@ -28,7 +28,7 @@ const Contact = () => {
     return (
     <form ref={form} onSubmit={sendEmail}>
 
-        <div className='wrapper-contact'>
+        <div className='wrapper-contact' id='contact'>
             <h1> Leave A Message</h1>
            {loading &&  <Spinner />}
             {contact && 

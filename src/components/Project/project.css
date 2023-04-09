@@ -1,7 +1,7 @@
 .wrap {
     display:flex;
     margin:0 auto;
-    margin-top:10%;
+    margin-top:60px;
 
 }
 .wrap h1{
@@ -38,7 +38,7 @@
     border:1px solid grey;
     border-radius:30%;
     width:60px;
-    margin-top:-10px;
+   
 }
 .see:hover{
     background:rgb(107, 107, 214);
@@ -51,11 +51,22 @@
 }
 @media screen and (max-width:881px){
     .wrap{
+        margin-top:20px;
         text-align:center;
         flex-direction: column;
     }
+    .wrap h1{
+      margin: 0 auto;
+       text-align: center;
+    }
+    .image{
+        margin-top:50px;
+    }
 }
 @media screen and (max-width:500px){
+    .wrap h1{
+        margin-bottom: 15px;
+    }
     .image{
         flex-direction:column;
         margin-top:30px;

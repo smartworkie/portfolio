@@ -1,3 +1,4 @@
+import {BrowserRouter} from 'react-router-dom';
 import Navbar from './components/navbar/navbar';
 import './App.css';
 import Intro from './components/Intro/intro';
@@ -10,15 +11,20 @@ const App = () => {
   
 
   return (
+
     <div className="App">
+          <BrowserRouter>
      <Navbar/>
      <Header/>
-     <Intro/>
+      <Intro/>
      <Service/>
      <Project/>
      <Contact/>
      <Footer/>
+     
+     </BrowserRouter>
     </div>
+   
   );
 }
 

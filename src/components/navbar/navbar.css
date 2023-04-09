@@ -1,5 +1,11 @@
 .wrapper{
     display:flex;
+
+   
+}
+a{
+text-decoration: none;
+color: black;
 }
 
 .left{   
@@ -15,12 +21,13 @@
     color:var(--orange);
 }
 .heart {
-    height:20%;
+    width:20px;
+    height:25px;
 }
 
 .right{
 display: flex;
-flex:1;
+flex:2;
 font-weight: 400;
 }
 .list{
@@ -39,17 +46,38 @@ cursor:pointer;
     color:var(--orange);
 }
 .button{
-    width:20%;
-    height:25%;
+    width:120px;
+
+    height:40px;
+    margin-left:20px;
     cursor:pointer;
 }
-@media screen and (max-width:769px){
+@media screen and (max-width:880px){
     .wrapper{
-        display: column;
+        display:block ;
         margin-bottom:-100px;
+    }
+    .left{
+        left:0;
+        right:0;
+        margin:0 auto;
+        text-align:center;
+    }
+    .name{
+        text-align:center;
+    }
+    .heart{
+        margin:0 auto;
+        text-align:center;
+        position:relative;
     }
     .right{
         display:none;
     }
 
+}
+@media screen and (max-width:470px) {
+.name, .heart{
+    display:none;
+}    
 }

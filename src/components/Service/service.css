@@ -1,4 +1,6 @@
-
+.service{
+  text-align: center;
+}
 .header{
     margin-top:100px;
     text-align: center;
@@ -9,7 +11,7 @@
 }
 .development h1{
 text-align: center;
-width:200px;
+width:300px;
 border-radius:34px;
 border:none;
 color:white;
@@ -18,65 +20,34 @@ padding:14px;
 background: var(--blue);
 }
 .fullstack{
-    margin:0 auto;
-    margin-bottom:20px;
+  margin: 0 auto;
+}
+.frontback{
+display: flex;
+text-align: center;
+margin-top:10px;
+gap:5px;
 }
 .frontend{
-   margin:0 auto;
+  margin:0 auto;
 }
 .backend{
-  margin:0 auto;
-  }
-.frontback{
-    display:flex;
-    margin:0 auto;
-    margin-bottom:20px;
-    gap:5%;
+  margin: 0 auto;
 }
 #download{
-  position:absolute;
-  left:0;
-  right:0;   
-  width:150px;
-  margin:0 auto;
-   cursor:pointer;
+  margin-top: 10px;
 }
-@media screen and (max-width:769px) {
-  .development h1{
-      gap:20%;
-    }
-@media screen and (max-width:420px){
+@media screen and (max-width:450px){
+ 
+
   .header{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .development h1{
+    width:170px;
     font-size:16px;
   }
-}
-@media screen and (max-width:360px){
-.service{
-margin:0 auto;
-}
-.fullstack{
-  margin:0 auto;
-  margin-bottom: 20px;
-}
-.development h1{
-  width:fit-content;
-  margin:0 auto;
-  margin-bottom: 20px;
-  text-align:center;
-}
-.frontend{
-  margin-left: 99%;
-}
-
-.frontback{
-  text-align: center;
-  gap:7%;
-}
-.backend{
-  margin-right:6px;
-}
-}
+  .frontback{
+    flex-direction:column;
+  }
 }

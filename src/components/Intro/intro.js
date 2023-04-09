@@ -8,6 +8,7 @@ import MongoDB from '../../img/mongodb.png';
 import CSS from '../../img/css.png';
 import JavaScript from '../../img/javascript.png';
 import LinkedIn from '../../img/linkedin.png';
+import {HashLink as Link} from 'react-router-hash-link'
 
 const Intro = () => {
 
@@ -15,11 +16,11 @@ return(
  <div className='intro'>
     <div className='left-intro'>
         <div className='name2'>
-            <span>Hello, I Am </span>
+            <span>Hi, I Am </span>
             <span>Michael</span>
             <span>Builds Responsive Websites with Easy-to-Use User Interface </span>
         </div>
-        <button className='contact hire' >Hire Me</button>
+        <Link to ='#contact'><button className='contact hire'  >Hire Me</button></Link>.
         <div className='icons'>
          
             <a href='https://github.com/smartworkie' target="_blank" rel="noreferrer" className='link'><img src={Github} alt='' className='github'/> 
@@ -28,7 +29,7 @@ return(
                         </div>
     </div>
     <div className='right-intro'>
-        <h1 className='skills'>Expertise</h1>
+        <h1 className='skills' id='skill'>Expertise</h1>
         <img className = 'laptop' src = {Laptop} alt='laptop' />
         <div className='images'>
         <img className='node' alt='node' src={Node}/>
