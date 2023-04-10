@@ -1,5 +1,6 @@
 .intro{
     display:flex;
+    margin-top:20px;
    
 }
 
@@ -71,7 +72,7 @@ margin-bottom:50px;
 }
 .node{
     position:absolute;
-    top:130px;
+    top:145px;
     right:350px;
 }
 .css{
@@ -100,139 +101,122 @@ margin-bottom:50px;
   
 }
 .left-intro{
-    text-align:center;
+    text-align: center;
 }
 .right-intro{
-    margin: 0 auto;
+margin: 0 auto;
 }
 .laptop{
-    width:400px;
-    margin:0 auto;
+    width:300px;
     
+}
+.skills{
+    margin-bottom:50px;
 }
 
 .images img{
     width:40px;
+    text-align: center;
+    margin: 0 auto;
 }
 .hire{
-    margin:0 auto;
+margin:0 auto;
 }
 
 .node{
-    top: 465px;
-    right:415px;
+    position:absolute;
+    top: 530px;
+    right:48%;
 }
 .mongoDB{
-    top:570px;
-    right:250px;
+    top:600px;
+    right:35%;
 }
 .css{
-    top: 570px;
-    right:550px;
+    top: 600px;
+    right:60%;
 }
 .javascript{
    
-    right:510px;
+    right:60%;
 }
 .react{
-    right:300px;
+    right:35%;
 }
-@media screen and (max-width:590px){
-    .images img{
-        width:40px;
-    }
-    .laptop{
-        width:400px;
-    }
-    .skills{
-        text-align:center;
-    }
+}
+@media screen and (max-width:590px) { 
     .node{
-        left:260px;
+        right:48%;
     }
     .mongoDB{
-        top:620px;
-        left:370px;
+        
+        right:30%;
     }
     .css{
-        top:620px;
-        left:170px;
+        right:65%;
     }
     .javascript{
-        left:170px;
+        right:65%;
     }
     .react{
-        left:370px;
+        right:30%;
     }
-}
+    }
 
-@media  screen and (max-width:470px){
-.images img{
-        width:20px;
-    }
-.laptop{
-    width:300px;
-  }  
-  .node{
-    top:535px;
-    left:213px;
-  }
-  .css{
-    left:140px;
-  }
-  .mongoDB{
-    left:300px;
-  }
-  .javascript{
-    left:140px;
-  }
-  .react{
-    left:300px;
-  }
-}
-@media screen and (max-width:380px){
-.images img{
-        width:30px;
-        height:30px;
-    }
-.laptop{
-    width:250px;
-}
-.node{
-    top:585px;
-    left:170px;
-}
-.css{
-    top:650px;
-    left:115px;
-}
-.mongoDB{
-    top:650px;
-    left:260px;
-}
-.javascript{
-    left:120px;
-}
-.react{
-    left:260px;
-}
-}    
-}
-@media screen and (max-width:352px) {
-    .node{
-        top:523px;
-        left:171px;
-    }
-  .css{
-    top:590px;
-  }  
-  .mongoDB{
-    left:230px;
-    top:590px;
-  }
-  .react{
-    left:230px;
-  }
-}
-
-
+    @media screen and (max-width:480px) { 
+        .images img{
+            width:30px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .laptop{
+            width:200px;
+        }
+        .node{
+            right:48%;
+        }
+        .mongoDB{
+            
+            right:30%;
+        }
+        .css{
+            right:65%;
+        }
+        .javascript{
+            right:65%;
+        }
+        .react{
+            right:30%;
+        }
+        }
+    
+        @media screen and (max-width:470px) { 
+            .images img{
+                width:30px;
+                text-align: center;
+                margin: 0 auto;
+            }
+            .laptop{
+                width:200px;
+            }
+            .node{
+                top:500px;
+            }
+            .mongoDB{
+              top: 570px;  
+                
+            }
+            .css{
+             top: 570px;
+            }
+           
+            }
+            @media screen and (max-width:400px) { 
+                .images img{
+                    width:20px;
+                   height:30px;
+                }
+                .node{
+                    top:515px;
+                }
+            }

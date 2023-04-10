@@ -36,6 +36,10 @@ gap:5px;
 }
 #download{
   margin-top: 10px;
+  cursor:pointer;
+}
+a{
+  color:inherit;
 }
 @media screen and (max-width:450px){
  

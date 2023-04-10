@@ -1,8 +1,7 @@
 .wrapper{
-    display:flex;
-
-   
+    display:flex;  
 }
+
 a{
 text-decoration: none;
 color: black;
@@ -10,8 +9,8 @@ color: black;
 
 .left{   
     display: flex;
-    flex:1;
-    gap:1rem;
+    flex:2;
+    
 }
 
 .name{
@@ -28,30 +27,34 @@ color: black;
 .right{
 display: flex;
 flex:2;
+margin-top:-20px;
+margin-left:100px;
 font-weight: 400;
 }
 .list{
 display:flex;
 flex:1;  
+
 }
 .list>ul{
 display:flex;
-gap: 25%;
-margin-right:30%;
+gap: 20px;
+
 }
 .list li{
+    background-color: var(--orange);
+    width: 90px;
+    height:30px;
+    margin:0 auto;
+    padding-top:7px;
+    text-align: center;
+    border-radius: 30px;
 cursor:pointer;
 }
 .list li:hover {
-    color:var(--orange);
+    background-color:greenyellow;
 }
-.button{
-    width:120px;
 
-    height:40px;
-    margin-left:20px;
-    cursor:pointer;
-}
 @media screen and (max-width:880px){
     .wrapper{
         display:block ;

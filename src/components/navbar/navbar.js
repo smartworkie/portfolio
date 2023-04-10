@@ -15,14 +15,15 @@ return (
     <div className='right'>
         <div className='list'>
             <ul style={{listStyleType:'none'}}>
-             <Link to ='#home'>   <li>Home</li></Link>
-             <Link to='#service'>   <li>Services</li></Link>
-             <Link to='#skill'>   <li>Skills</li></Link>
-             <Link to='#project'>   <li>Projects</li>  </Link>   
+             <Link to ='#home' smooth>   <li>Home</li></Link>
+             <Link to='#service' smooth>   <li>Services</li></Link>
+             <Link to='#skill' smooth>   <li>Skills</li></Link>
+             <Link to='#project' smooth>   <li>Projects</li>  </Link>   
+             <Link to='#contact' smooth>
+                 <li>Contact Us  </li>
+           </Link>
             </ul>
-           <Link to='#contact'> <button className='contact button'>
-                Contact Us
-            </button></Link>
+          
             
         </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './service.css';
+import Resume from '../download/resume1.pdf';
 
 const Service = () => {
 
@@ -12,7 +13,7 @@ return(
          
             <h1 className='backend'>Back-End Development</h1></div>
              </div>
-             <button download className='contact' id='download'>Download CV</button>
+             <button  className='contact' id='download' href={Resume}><a  href={Resume} download >Download CV</a></button>
         
     </div>    
 )
