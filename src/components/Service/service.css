@@ -1,57 +1,100 @@
+.wrapper-service{
+    display:flex;
+   gap:50px;
+}
 .service{
-  text-align: center;
+    width:350px;
+    height:400px;
+    font-size:17px;
+    color:rgba(0, 0, 255, 0.795);
+    flex:1;
 }
-.header{
-    margin-top:100px;
-    text-align: center;
-    color:var(--orange);
+.service h1{
+    color:rgba(0, 0, 0, 0.74); 
+}
+.paragraph{
+    text-align:left;
     font-weight: bold;
-    font-size: 3rem;
-    font-family:'Times New Roman', Times, serif;
 }
-.development h1{
-text-align: center;
-width:300px;
-border-radius:34px;
-border:none;
-color:white;
-font-size: 20px;
-padding:14px;
-background: var(--blue);
+.image{
+    flex:2;
 }
-.fullstack{
-  margin: 0 auto;
+.button{
+    display:flex;
+    gap:20px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    background-color: orangered;
+    border: none;
+    border-radius:30px;
+    cursor:pointer;
+    text-align:center;
+    width:200px;
+    height: 30px;
 }
-.frontback{
-display: flex;
-text-align: center;
-margin-top:10px;
-gap:5px;
+.button:hover{
+    color:var(--orange);
+    background-color: orange;
+    border: solid 1px orange;
 }
-.frontend{
-  margin:0 auto;
+.button p{
+    margin-top:2px;
+    color:white;
+    margin-left:15px;
 }
-.backend{
-  margin: 0 auto;
+.buttom image{
+    margin-top:10px;
 }
-#download{
-  margin-top: 10px;
-  cursor:pointer;
-}
-a{
-  color:inherit;
-}
-@media screen and (max-width:450px){
- 
 
-  .header{
-    font-size: 2rem;
-  }
-  .development h1{
-    width:170px;
-    font-size:16px;
-  }
-  .frontback{
-    flex-direction:column;
-  }
+img{
+
+width:500px;
+height:300px;
+border-radius:20%;
+}
+.flier1{
+    margin-top:20px;  
+}
+
+.contact-image1{
+    margin-top:4px;
+    width:20px;
+    height:20px; 
+}
+
+@media screen and (max-width:880px) {
+
+    .wrapper-service{
+       display:flex;
+       flex-direction: column;
+        text-align: center;
+        margin:0 auto;
+        align-items: center;
+        height:350px;
+    }
+    
+    .paragraph{
+        margin:0 auto;
+        text-align:center;
+    }
+    .button{
+        margin: 0 auto;
+    }
+    .flier1{
+        position:relative;
+        top:-390px;
+        width:300px;
+        height:279px;
+        opacity:0.2;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .flier1{
+        width:270px;
+        height:260px;
+        top:-370px;
+    }
+    
 }

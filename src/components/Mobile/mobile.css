@@ -1,0 +1,61 @@
+.mobile-wrapper{
+   display:flex;
+   flex-direction:column;
+    gap: 30%;
+}
+.mobile-wrapper img{
+    height:20px;
+    width:20px;
+}
+.logomob-wrapper{
+   
+    display:flex;
+}
+.mobile-image{
+    display:flex;
+    gap:40px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+#logomob{
+    margin-left:10px;
+    width:50px;
+    height:20px;
+}
+.faq{
+    border-radius:100%;
+    cursor:pointer;
+}
+.phonemob{
+    border-radius:100%;
+    cursor:pointer;
+   
+}
+.mailmob{
+    cursor:pointer;
+}
+.logomob-wrapper p{
+    margin-top:2px;
+    color:orangered;
+    font-size:20px;
+    font-weight:bold;
+    margin:0 auto;
+}
+@media screen and (min-width:880px){
+    .mobile-wrapper{
+    display:none;
+}
+}
+
+@media screen and (max-width:500px){
+    .mobile-image{
+        gap:20px;
+    }
+    #logomob{
+        margin-left:-30px;
+    }
+    .logomob-wrapper p{
+   font-size:14px;
+        
+    }
+}

@@ -18,7 +18,6 @@ const Header = () => {
    {show &&  (     <div  className='header-wrappers'>
             <ul style={{listStyleType:'none'}}>
               <Link to='#home' smooth> <li>Home</li></Link>
-               
                <Link to='#service' smooth> <li>Services</li> </Link>
               <Link to ="#skill" smooth>  <li>Skills</li> </Link>
                <Link to="#project" smooth> <li>Projects</li> </Link>

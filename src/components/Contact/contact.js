@@ -16,12 +16,11 @@ const Contact = () => {
         setLoading(true);
       emailjs.sendForm(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, form.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
-            console.log(result.text);
-            setTimeout(()=>{setContact(true)},2000);
+           setContact(true);
             setLoading(false);
         }, (error) => {
             console.log(error.text);
-           setTimeout(()=> {setError(true)},2000);
+           setError(true);
            setLoading(false);
         });
     };

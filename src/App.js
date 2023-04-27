@@ -1,12 +1,12 @@
 import {BrowserRouter} from 'react-router-dom';
 import Navbar from './components/navbar/navbar';
-import './App.css';
-import Intro from './components/Intro/intro';
-import Header from './components/Header/header';
 import Service from './components/Service/service';
-import Project from './components/Project/project';
-import Contact from './components/Contact/contact';
+import Faq from './components/FAQ/faq';
 import Footer from './components/Footer/footer';
+import Contact from './components/Contact/contact';
+import Mobile from './components/Mobile/mobile';
+import './App.css';
+
 const App = () => {
   
 
@@ -15,13 +15,11 @@ const App = () => {
     <div className="App">
           <BrowserRouter>
      <Navbar/>
-     <Header/>
-      <Intro/>
+     <Mobile/>
      <Service/>
-     <Project/>
+     <Faq/>
      <Contact/>
      <Footer/>
-     
      </BrowserRouter>
     </div>
    
